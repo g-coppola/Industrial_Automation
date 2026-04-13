@@ -9,7 +9,7 @@ The connection between **Codesys** (the soft-PLC) and **Factory I/O** (the 3D si
 ## Simulation Demo
 Click the image below to watch the full simulation video on Google Drive:
 
-[![Watch the simulation video]](https://drive.google.com/file/d/1r9PfqAvQTGQeE8JJnoP-LyBnXmRrOQ1N/view?usp=sharing)
+[Watch the simulation video](https://drive.google.com/file/d/1r9PfqAvQTGQeE8JJnoP-LyBnXmRrOQ1N/view?usp=sharing)
 
 ---
 
