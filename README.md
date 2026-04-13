@@ -3,6 +3,13 @@
 ## Overview
 This repository contains an industrial automation project developed for the Academic Year 2024-2025. The objective of the project is to simulate a sorting and processing section of a plastic recycling factory. The system receives raw materials (boxes) via conveyor belts, processes them into finished parts, and automatically sorts the output (Bases and Lids) based on their color (Blue and Green).
 
+## Communication Setup
+The connection between **Codesys** (the soft-PLC) and **Factory I/O** (the 3D simulation) is established via the **OPC (Open Platform Communications)** standard. Specifically, the system utilizes either the **OPC DA (Data Access)** or **OPC UA (Unified Architecture)** protocol. 
+
+In this architecture:
+- **Codesys** acts as the **OPC Server**, exposing the internal variables and logic states.
+- **Factory I/O** acts as the **OPC Client**, seamlessly reading the actuator commands from the PLC and writing the simulated sensor data back to it in real-time.
+
 ## Repository Structure
 This repository contains two main files required to run the simulation and the PLC logic:
 - `Production_FIO.factoryio`: The 3D factory simulation scene. To be opened with **Factory I/O**.
