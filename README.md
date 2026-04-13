@@ -9,7 +9,7 @@ The connection between **Codesys** (the soft-PLC) and **Factory I/O** (the 3D si
 ## Simulation Demo
 Click the image below to watch the full simulation video on Google Drive:
 
-[Watch the simulation video](https://drive.google.com/file/d/1r9PfqAvQTGQeE8JJnoP-LyBnXmRrOQ1N/view?usp=sharing)
+[Simulation video](https://drive.google.com/file/d/1r9PfqAvQTGQeE8JJnoP-LyBnXmRrOQ1N/view?usp=sharing)
 
 ---
 
@@ -18,10 +18,11 @@ In this architecture:
 - **Factory I/O** acts as the **OPC Client**, seamlessly reading the actuator commands from the PLC and writing the simulated sensor data back to it in real-time.
 
 ## Repository Structure
-This repository contains two main files required to run the simulation and the PLC logic:
+This repository contains the files required to run the simulation, the PLC logic, and the project presentation:
 - `Production_FIO.factoryio`: The 3D factory simulation scene. To be opened with **Factory I/O**.
 - `Bases_Lids_Production.project`: The PLC control logic. To be opened with **Codesys**.
-
+- `PresentazioneProgetto.pptx`: The official project presentation slide deck.
+  
 ## Features
 - **Automated Machining:** Simulates the intake and processing of raw materials.
 - **Color-Based Sorting:** Uses vision sensors and Pick-and-Place robots to sort products by color (Blue and Green).
